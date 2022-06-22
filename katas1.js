@@ -1,94 +1,128 @@
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+  let contador = []
+  for(let i = 1; i <= 20; i++) {
+    contador.push(i)
+  }
+  return contador
 }
 
-//call function oneThroughTwenty
+console.log(oneThroughTwenty())
+
 
 function evensToTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
+  let contador = []
+  for(let i = 1; i <= 20; i++ ) {
+    if( i % 2 == 0) {
+      contador.push(i)
+    }
+  }
+  return contador
 }
 
-//call function evensToTwenty
+console.log(evensToTwenty())
 
 function oddsToTwenty() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
+  let contador = []
+ for(let i = 1; i <= 20; i++) {
+
+  if(i % 2 !== 0) {
+    contador.push(i)
+
+  } 
+ }
+  return contador
 }
 
-//call function oddsToTwenty
+
+console.log(oddsToTwenty())
 
 function multiplesOfFive() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+  let contador = []
+  for(let i = 1; i <=100; i++) {
+    if( i % 5 == 0) {
+      contador.push(i)
+    }
+  }
+  return contador
 }
 
-//call function multiplesOfFive
+console.log(multiplesOfFive())
 
 function squareNumbers() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
-}
-
-//call function squareNumbers
+  let contador = []
+  for(let i = 1; i<=10; i++) {
+    quadradoPerfeito = i ** 2
+    contador.push(quadradoPerfeito) 
+  }
+   return contador
+ }
+ 
+ console.log(squareNumbers())
+ 
 
 function countingBackwards() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let contador = []
+  for( let i = 20; i >= 1; i--) {
+    contador.push(i)
+  }
+  return contador
 }
 
-//call function countingBackwards
+
+console.log(countingBackwards())
 
 function evenNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let contador = []
+  for(let i = 20; i >= 1; i--) {
+    if(i % 2 == 0) {
+      contador.push(i)
+    }
+  }
+  return contador
 }
 
-//call function evenNumbersBackwards
+console.log(evenNumbersBackwards())
 
 function oddNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let contador = []
+  for(let i = 20; i >= 1; i--) {
+    if(i % 2 !== 0) {
+      contador.push(i)
+    }
+  }
+  return contador
 }
 
-//call function oddNumbersBackwards
+console.log(oddNumbersBackwards())
 
 function multiplesOfFiveBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let contador = []
+  for( let i = 100; i >= 1; i--) {
+      if(i % 5 == 0) {
+        contador.push(i)
+      }
+  }
+  return contador
 }
 
-//call function multiplesOfFiveBackwards
+console.log(multiplesOfFiveBackwards())
 
 function squareNumbersBackwards() {
     
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+   let contador = []
+   for(let i = 10; i >= 1; i--) {
+    quadradoPerfeito = i ** 2
+    contador.push(quadradoPerfeito)
+   }
+   return contador
 }
 
-//call function squareNumbersBackwards
+console.log(squareNumbersBackwards())
