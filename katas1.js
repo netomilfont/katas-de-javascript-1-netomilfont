@@ -54,9 +54,11 @@ console.log(multiplesOfFive())
 function squareNumbers() {
     
   let contador = []
-  for(let i = 1; i<=10; i++) {
-    quadradoPerfeito = i ** 2
-    contador.push(quadradoPerfeito) 
+  for(let i = 1; i<=100; i++) {
+    if (i**2 <= 100){
+      let quadradoPerfeito = i**2
+      contador.push(quadradoPerfeito) 
+    }
   }
    return contador
  }
@@ -118,9 +120,11 @@ console.log(multiplesOfFiveBackwards())
 function squareNumbersBackwards() {
     
    let contador = []
-   for(let i = 10; i >= 1; i--) {
-    quadradoPerfeito = i ** 2
-    contador.push(quadradoPerfeito)
+   for(let i = 100; i >= 1; i--) {
+    if(i**2 <= 100) {
+      let quadradoPerfeito = i**2
+      contador.push(quadradoPerfeito)
+    }
    }
    return contador
 }
